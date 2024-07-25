@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGYM</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        header {
+            height: 30vh; 
+            background-color: rgb(225, 220, 217); 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .colored-section {
+            min-height: 70vh; /* Adjust this value as needed */
+            background-color: rgb(172, 171, 169); /* Bottom color */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+        }
+
+        .orangeText {
+            color: rgb(238, 76, 15);
+        }
+
+        .grayText {
+            color: rgb(116, 115, 113);
+        }
+
+        .download-button {
+            text-align: center;
+            display: block;
+        }
+
+        .privacy-policy {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            margin-left: 2%;
+            margin-bottom: 1%;
+            color: rgb(116, 115, 113);
+            text-align: center;
+            z-index: 3;
+        }
+
+        .phone1 {
+            position:fixed;
+            bottom: 50%;
+            left: 30%;
+            transform: translate(-50%, 50%);
+            height: 50vh; 
+        }
+
+        .screen1 {
+            position:fixed;
+            bottom: 50%;
+            left: 30%;
+            transform: translate(-50%, 50%);
+            height: 46vh; 
+        }
+
+        .phone2 {
+            position:fixed;
+            bottom: 50%;
+            left: 70%;
+            transform: translate(-50%, 50%);
+            height: 50vh; 
+        }
+
+        .screen2 {
+            position:fixed;
+            bottom: 50%;
+            left: 70%;
+            transform: translate(-50%, 50%);
+            height: 46vh; 
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="orangeText">LOGYM - Workout Tracker</h1>
+        <a href="https://www.apple.com/app-store/" target="_blank">
+            <img src="images/Download_on_the_App_Store_Badge_US-UK_RGB_wht_092917.svg" alt="App Store link" style="width: 20vh;">
+        </a>
+        <h2>Log.Gym.Progress.</h2>
+    </header>
+    <section class="colored-section">
+    </section>
+    <img class="screen1" src="images/screen_1.png"/>
+    <img class="phone1" src="images/iPhone_15_Pro.png"/>
+    <img class="screen2" src="images/screen_2.png"/>
+    <img class="phone2" src="images/iPhone_15_Pro.png"/>
+    <p class="privacy-policy">Privacy Policy: The LOGYM App does not track you. No data is collected.</p> 
+</body>
+</html>
